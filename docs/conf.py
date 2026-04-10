@@ -105,7 +105,7 @@ needs_types = [
     dict(directive="swreq",   title="Software Requirement", prefix="SWR_"),
     dict(directive="swspec", title="Specification", prefix="SWS_"),
 
-    dict(directive="test", title="SoftwareTest Case", prefix="SWT_"),
+    dict(directive="test", title="SoftwareTest Case", prefix="TC_"),
 
     dict(directive="elreq",   title="Electronics Requirement", prefix="ELR_"),
 
@@ -210,6 +210,7 @@ needs_constraints = {
 # -- Options for HTML output ----------------------------------------------
 
 html_theme = 'sphinx_rtd_theme'
+html_logo = "_static/almedso-logo-100x100.png"
 html_theme_options = {
     'logo_only': False,
     'prev_next_buttons_location': 'bottom',
@@ -231,6 +232,9 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# Add custom CSS files
+html_css_files = ['custom.css']
 
 
 

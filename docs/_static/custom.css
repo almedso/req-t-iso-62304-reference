@@ -1,0 +1,49 @@
+/* Custom CSS for Sphinx RTD Theme */
+
+/* Change left sidebar background color to green */
+.wy-nav-side {
+    background-color: green;
+}
+
+/* Adjust navigation link colors for visibility on green background */
+.wy-nav-side .wy-menu-vertical a {
+    color: white;
+}
+
+/* Hover effect for navigation links */
+.wy-nav-side .wy-menu-vertical a:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* Active/current page link */
+.wy-nav-side .wy-menu-vertical .current > a,
+.wy-nav-side .wy-menu-vertical .current > a:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* Change TOC caption color to dark green */
+.caption {
+    color: lightgray !important;
+}
+
+/* Change link colors to green */
+a {
+    color: green;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+/* Style note boxes with green */
+.admonition.note {
+    background-color: lightgreen;
+    border-color: green;
+}
+
+.admonition.note .admonition-title {
+    background-color: green;
+    color: white;
+}
