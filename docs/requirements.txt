@@ -1,0 +1,8 @@
+sphinx
+# Markdown support for Sphinx see https://commonmark.org
+recommonmark
+sphinx-needs
+sphinxcontrib-plantuml
+sphinxcontrib-mermaid
+sphinxcontrib-httpdomain
+sphinx_rtd_theme
