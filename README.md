@@ -15,11 +15,14 @@ It clearly distinguishes between:
 - **Constraints** that are a-priory taken design decisions that cannot be undone.
 - **Specifications** that are design decisions taken in the course of development.
 
-## Guidance
+## git Guidance
 
 - git is used to organize
   - revisioning/baselining, diffing
   - reviewing and approval by PR/by signoff
+
+## Sphinx Neeeds guidance
+
 - sphinx with needs plugin is is used
   - to structure the documentation, provide browseable access
   - prevent broken links
@@ -27,8 +30,7 @@ It clearly distinguishes between:
   - prevent missing traces
 
 
-
-### ID System
+### Needs ID System
 
 Identifier:
 
